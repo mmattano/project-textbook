@@ -1,0 +1,9 @@
+# Format & usability preferences
+
+::: {.callout-tip}
+Read [Programming & tools](programming-tools.qmd) first.
+:::
+
+::: {.callout-note}
+TODO: Add content on format & usability preferences.
+:::

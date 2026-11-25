@@ -44,7 +44,7 @@ How to start writing: if you have materials from your teachings/articles - write
 
 ## Add important terms into the glossary / terminology chapter {.unnumbered}
 
-If you come across important terms that are not yet defined in the glossary, please add them.
+If you come across important terms that are not yet defined in the [glossary](glossary.qmd), please add them.
 
 ## There are two versions of the book: development and published (main) version {.unnumbered}
 

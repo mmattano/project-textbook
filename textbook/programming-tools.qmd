@@ -1,0 +1,9 @@
+# Programming & tools
+
+::: {.callout-tip}
+Read [Workflows & reproducibility](workflows-reproducibility.qmd) first.
+:::
+
+::: {.callout-note}
+TODO: Add content on programming & tools.
+:::

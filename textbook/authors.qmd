@@ -1,3 +1,7 @@
 # Authors
 
 Add all the authors with their affiliations and ORCID IDs here.
+
+- Caroline Lennartsson — Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen — [ORCID: 0000-0002-8392-6858](https://orcid.org/0000-0002-8392-6858)
+- Veit Schwämmle — Department of Biochemistry and Molecular Biology, University of Southern Denmark — [ORCID: 0000-0002-9708-6722](https://orcid.org/0000-0002-9708-6722)
+- Julian Uszkoreit — Ruhr University Bochum — [ORCID: 0000-0001-7522-4007](https://orcid.org/0000-0001-7522-4007)

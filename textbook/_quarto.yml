@@ -8,7 +8,16 @@ book:
   chapters:
     - index.qmd
     - guidelines.qmd
-    - introduction.qmd
+    - part: "Mass Spectrometry Fundamentals"
+      chapters:
+        - introduction.qmd
+    - part: "Proteomics"
+      chapters:
+        - data-preprocessing.qmd
+        - identification-search.qmd
+        - quantification.qmd
+        - post-quantification-processing.qmd
+        - significance-analysis.qmd
     - part: metabolomics/index.qmd
       chapters:
         - metabolomics/feature-detection.qmd
@@ -18,7 +27,16 @@ book:
       chapters:
         - stable-isotope-labeling/labeling-strategies.qmd
         - stable-isotope-labeling/flux-calculations.qmd
+    - part: "Tools and Best Practices"
+      chapters:
+        - machine-learning-ai.qmd
+        - workflows-reproducibility.qmd
+        - programming-tools.qmd
+        - format-usability-preferences.qmd
+  appendices:
+    - glossary.qmd
     - authors.qmd
+    - references.qmd
 
 bibliography: references.bib
 
@@ -26,5 +44,6 @@ format:
   html:
     theme:
       - cosmo
+    css: styles.css
   pdf:
     documentclass: scrreprt

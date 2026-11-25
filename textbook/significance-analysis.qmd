@@ -1,0 +1,14 @@
+# Statistics & downstream analysis
+
+::: {.callout-tip}
+Read [Post-quantification processing](post-quantification-processing.qmd) first.
+:::
+
+::: {.callout-note}
+TODO: Add content on statistics & downstream analysis.
+
+- Statistical testing
+- Multiple testing correction
+- Data visualization
+
+:::

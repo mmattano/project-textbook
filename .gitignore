@@ -1,4 +1,33 @@
 .quarto/
 **/*.quarto_ipynb
 
+# Quarto build outputs
 _book/
+_site/
+_cache/
+
+# Editor and OS
+.vscode/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+.env
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# Misc build artifacts and logs
+*.log
+*.aux
+*.out
+*.toc

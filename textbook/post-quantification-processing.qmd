@@ -1,0 +1,17 @@
+# Data preprocessing & processing
+
+::: {.callout-tip}
+Read [Quantification](quantification.qmd) first.
+:::
+
+::: {.callout-note}
+TODO: Add content on data processing.
+
+Such as:
+- Normalization
+- Batch effect correction
+- Missing value filtering
+- Imputation
+
+
+:::

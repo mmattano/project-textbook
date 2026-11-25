@@ -1,0 +1,63 @@
+# Glossary / Terminology
+
+This chapter collects important terms used throughout the book, along with their definitions.
+
+If you come across a term that is not yet defined here, please add it.
+
+
+
+**ESI (Electrospray Ionization)**
+: An ionization technique used to introduce peptides into a mass spectrometer, imparting one or more electrical charges to the peptide molecules. 
+This produces charged precursor ions that can be separated and analyzed according to their mass-to-charge (m/z) ratios.
+
+**m/z (mass-to-charge ratio)**
+: The peptide property measured by a mass spectrometer's mass analyzer. 
+
+**MS1**
+: The full mass spectrum recorded by the mass analyzer during the initial scan, which measures the m/z of precursor ions before fragmentation.
+
+**MS2 (MS/MS, tandem mass spectrometry)**
+: The fragmentation scan performed on selected precursor ions from the MS1 scan. 
+This step is essential for determining the amino acid sequence of a peptide by generating characteristic fragment ions.
+
+**TOF (Time-of-Flight)**
+: A type of mass analyzer that determines the m/z of ions by measuring the time they take to travel through a field-free flight tube, with lighter (lower m/z) ions arriving at the detector faster than heavier ones. 
+TOF analyzers are used in a variety of mass spectrometers, including the Bruker timsTOF.
+
+**PSM (Peptide-Spectrum Match)**
+: The result of comparing an experimental MS2 spectrum against a theoretical spectrum generated from a reference protein database during database searching. 
+Each PSM is assigned a score reflecting the quality of the match, which is used to distinguish correct peptide identifications from incorrect ones.
+
+**CID (Collision-Induced Dissociation)**
+: A peptide fragmentation method, in which selected precursor ions collide with an inert gas, causing cleavage of the peptide backbone. 
+The resulting fragment ions are commonly classified as b-ions and y-ions.
+
+**HCD (Higher-energy Collisional Dissociation)**
+: A refined form of CID in which ions are accelerated to higher collision energies. 
+
+**DDA (Data-Dependent Acquisition)**
+: A mass spectrometry acquisition strategy in which the instrument selects precursor ions for fragmentation (MS2) in real time based on their intensity in the survey (MS1) scan, typically fragmenting the top N most abundant ions. 
+
+**DIA (Data-Independent Acquisition)**
+: A mass spectrometry acquisition strategy in which all precursor ions within predefined, sequential mass-to-charge (m/z) windows are systematically fragmented, regardless of their intensity. 
+This produces more comprehensive but also more complex MS2 spectra, which typically require spectral libraries and specialized software for interpretation.
+
+**SRM/MRM (Selected/Multiple Reaction Monitoring)**
+: A targeted mass spectrometry acquisition strategy performed on triple quadrupole instruments, in which a predefined set of precursor ion to fragment ion transitions is monitored throughout the run. 
+SRM refers to monitoring a single transition, while MRM refers to monitoring multiple transitions in parallel.
+
+**PRM (Parallel Reaction Monitoring)**
+: A targeted mass spectrometry acquisition strategy, in which predefined precursor ions are isolated and fragmented, and all resulting fragment ions are recorded in a single high-resolution MS2 scan, rather than monitoring individual transitions as in SRM/MRM.
+
+**Bottom-up**
+: An approach to proteomics analysis in which proteins are first digested into peptides, and then the resulting peptides are analyzed by mass spectrometry. 
+This is the most common approach for identifying and quantifying proteins in complex mixtures.
+
+**Top-down**
+: An approach to proteomics analysis in which intact proteins are directly analyzed by mass spectrometry, without prior digestion into peptides. 
+This approach can provide information on protein isoforms and post-translational modifications, but is technically more challenging.
+
+**Middle-down**
+: An approach to proteomics analysis in which proteins are partially digested into larger peptide fragments, which are then analyzed by mass spectrometry. 
+This approach can provide a balance between the detailed information obtained from top-down analysis and the higher throughput of bottom-up analysis.
+

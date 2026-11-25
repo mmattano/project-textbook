@@ -1,3 +1,32 @@
 # Introduction {#sec-introduction}
 
 - Intro is an overview of MS and navigation recommendations between topics and chapters (you want to know X, look on chapter X)
+
+
+
+## Mass Spectrometry Fundamentals
+
+A mass spectrometer consists of three main components: an ionization source, a mass analyzer, and a detector [@Dass2007-gs]. 
+A wide range of mass spectrometers, built around different mass analysis techniques, have been developed for proteomics. 
+These include Orbitrap-based instruments, such as the Orbitrap Exploris 480 [@Bekker-Jensen2020-xw; @Denisov2021-bk] and the Orbitrap Astral [@Heil2023-qh; @Guzman2024-gk], as well as time-of-flight (TOF) instruments, such as the Bruker timsTOF, which couples trapped ion mobility spectrometry (TIMS) with TOF mass analysis to add an additional dimension of ion separation [@Meier2018-tof]. 
+During injection into the instrument, peptides are ionized using electrospray ionization (ESI), which imparts one or more electrical charges to the peptide molecules [@Fenn1989-bt]. T
+hese charged peptide ions, referred to as precursor ions, are transferred to the mass analyzer, where electromagnetic fields separate them according to their mass-to-charge (*m/z*) ratios [@McDonald2002-hy]. 
+The instrument then records a full mass spectrum (MS1), which measures the *m/z* values and relative abundances of the precursor ions.
+
+The four principal types of mass analyzers used in proteomics are quadrupole, ion trap, time-of-flight (TOF), and Fourier transform (FT)-based analyzers, such as the Orbitrap [@Peters-Clarke2024-ji]. 
+Following the MS1 scan, selected precursor ions are fragmented in a process known as tandem mass spectrometry (MS/MS or MS2).
+This fragmentation step is essential for determining the amino acid sequence of a peptide by generating characteristic fragment ions [@Steen2004-zw].
+
+The most widely used fragmentation method is collision-induced dissociation (CID), in which selected precursor ions collide with an inert gas, causing cleavage of the peptide backbone [@Peters-Clarke2024-ji]. 
+The resulting fragment ions are commonly classified as b-ions and y-ions [@Roepstorff1984-fu]. 
+Modern mass spectrometers frequently employ higher-energy collisional dissociation (HCD), a refined form of CID in which ions are accelerated to higher collision energies, producing more efficient and reproducible fragmentation [@Olsen2007-px].
+
+
+## Data Acquisition Strategies
+There are several data acquisition method to select peptides from the MS1 for further fragmentation into MS2. 
+There are three main acquisition types in proteomics, in which the precursors are selected from the MS1. 
+The three main data collection strategies are: targeted analysis, data-dependent acquisition (DDA) [@Stahl1996-wd], and data-independent acquisition (DIA). 
+Targeted analysis includes techniques such as selected/multiple reaction monitoring (SRM/MRM) [@Lange2008-srm] and parallel reaction monitoring (PRM) [@Peterson2012-prm], in which a predefined set of precursor ions, and in the case of SRM/MRM their corresponding fragment ions, are monitored throughout the run rather than selected dynamically.
+
+- See @sec-dda-search for details on the database search approach used with DDA.
+- See @sec-dia-search for details on the DIA search approach.
